@@ -1,5 +1,7 @@
 
-cybersecs-MacBook-Pro:~ cybersec$ nmap -sV -p - -A 10.0.0.9
+[NMAP REPORT]
+
+cybersec$ nmap -sV -p - -A 10.0.0.9
 
 Starting Nmap 7.40 ( https://nmap.org ) at 2017-04-10 15:20 AST
 Nmap scan report for 10.0.0.9
@@ -62,16 +64,15 @@ Host script results:
 |_  message_signing: disabled (dangerous, but default)
 |_smbv2-enabled: Server doesn't support SMBv2 protocol
 
-
-
     
+[URLS]
 
 http://10.0.0.9/wordpress/wp-comments-post.php
 http://10.0.0.9/wordpress/readme
 https://es.wordpress.org/releases/
 
  
- 
+[TOOLS] 
 - wpscan —url http://<IP>/wordpress —enumerate u
 
 
